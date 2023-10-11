@@ -1,0 +1,31 @@
+{
+    "name": "qshurick/tf-snippet",
+    "description": "Test framework snippet",
+    "authors": [
+        {
+            "name": "Aleksandr Malyk",
+            "email": "shu.rick.ifmo@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "php tests/bootstrap.php"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jff\\Assignment\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jff\\Assignment\\Test\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
